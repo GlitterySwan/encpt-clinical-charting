@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "eNCPT Clinical Charting API - Lab 3",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Post eNCPT Clinical Note",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/json" }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"patientId\": \"PT-90481\",\n  \"step2_Diagnosis\": \"NI-1.2 Inadequate energy intake related to decreased appetite secondary to acute medical treatment as evidenced by 8.5% weight loss over 30 days.\"\n}"
+        },
+        "url": {
+          "raw": "https://api.emr-clinical.com/v1/encpt-notes",
+          "protocol": "https",
+          "host": ["api", "emr-clinical", "com"],
+          "path": ["v1", "encpt-notes"]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "patientId": "PT-90481",
+    "providerId": "RD-2041",
+    "encounterDate": "2026-10-21T10:30:00Z"
+  },
+  "eNCPT": {
+    "step1_Assessment": {
+      "foodNutritionHistory": "FH-1.1.1.1 Inadequate energy intake relative to requirement",
+      "anthropometricData": {
+        "height": "170 cm",
+        "weight": "54 kg",
+        "bmi": "18.7 kg/m2",
+        "weightChange": "Unintended weight loss of 5kg in 30 days"
+      },
+      "biochemicalData": "Serum Albumin: 3.1 g/dL (Low)",
+      "clinicalFindings": "PD-1.1.1 Temporal and clavicular muscle wasting"
+    },
+    "step2_Diagnosis": {
+      "pesStatement": {
+        "problem": "NI-1.2 Inadequate energy intake",
+        "etiology": "related to decreased appetite secondary to acute medical treatment",
+        "signsAndSymptoms": "as evidenced by 8.5% unintentional weight loss over 30 days."
+      }
+    },
+    "step3_Intervention": {
+      "category": "ND-1 Food and/or Nutrient Delivery",
+      "prescriptions": [
+        "ND-1.1 Meals and Snacks: Small, frequent high-calorie meals 6x daily",
+        "E-1.1 Initial/Brief Nutrition Education"
+      ]
+    },
+    "step4_MonitoringAndEvaluation": {
+      "indicators": [
+        "FH-1.1.1 Total Energy Intake: Re-evaluate 3-day calorie counts in 7 days",
+        "AD-1.1.2 Body Weight: Check weight bi-weekly"
+      ]
+    }
+  }
+}
